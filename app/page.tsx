@@ -7,7 +7,7 @@ import earphones_store3 from './assets/shared/desktop/image-category-thumbnail-e
 import arrowright from './assets/shared/desktop/icon-arrow-right.svg'
 import zx9_speaker from './assets/home/desktop/image-speaker-zx9.png'
 import yx1_earphones from './assets/home/desktop/image-earphones-yx1.jpg'
-import image_gear from './assets/shared/desktop/image-best-gear.jpg'
+//import image_gear from './assets/shared/desktop/image-best-gear.jpg'
 
 
 export default function Home() {
