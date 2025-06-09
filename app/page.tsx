@@ -6,6 +6,9 @@ import speaker_store2 from './assets/shared/desktop/image-category-thumbnail-spe
 import earphones_store3 from './assets/shared/desktop/image-category-thumbnail-earphones.png'
 import arrowright from './assets/shared/desktop/icon-arrow-right.svg'
 import zx9_speaker from './assets/home/desktop/image-speaker-zx9.png'
+import yx1_earphones from './assets/home/desktop/image-earphones-yx1.jpg'
+import image_gear from './assets/shared/desktop/image-best-gear.jpg'
+
 
 export default function Home() {
   return (
@@ -68,9 +71,31 @@ export default function Home() {
         <section className="mt-24 rounded-lg">
           <div className="bg-[url('/images/image-speaker-zx7.jpg')] bg-cover bg-no-repeat w-full min-h-[320px] rounded-lg pl-32 flex flex-col justify-center">
             <p className="text-[28pt] font-bold">zx7 SPEAKER</p>
-            <button className="mt-14 bg-fullblack py-4 px-6 text-white hover:bg-almostblack w-fit">
-              SEE PRODUCT
+            <button className="mt-14 border-2 border-almostblack text-black py-4 px-6 text-white hover:bg-almostblack w-fit">
+                SEE PRODUCT
             </button>
+          </div>
+          <div className="flex flex-auto justify-between mt-24 gap-12">
+            <div className="w-1/2">
+              <Image src={yx1_earphones} alt="earphone" className="rounded-lg w-full" />
+            </div>
+            <div className="bg-gray rounded-lg flex flex-col items-center justify-center w-1/2">
+              <p className="text-[28pt] font-bold">YX1 EARPHONES</p>
+              <button className="mt-14 border-2 border-almostblack text-black py-4 px-6 text-white hover:bg-almostblack w-fit">
+                SEE PRODUCT
+              </button>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h2>BRINGING YOU THE BEST AUDIO GEAR</h2>
+              <p>
+              Located at the heart of New York City, Audiophile is the premier store for high end headphones, earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration rooms available for you to browse and experience a wide range of our products. Stop by our store to meet some of the fantastic people who make Audiophile the best place to buy your portable audio equipment.
+              </p>
+            </div>
+            <div>
+              
+            </div>
           </div>
         </section>
       </div>
