@@ -71,7 +71,7 @@ export default function Home() {
         <section className="mt-24 rounded-lg">
           <div className="bg-[url('/images/image-speaker-zx7.jpg')] bg-cover bg-no-repeat w-full min-h-[320px] rounded-lg pl-32 flex flex-col justify-center">
             <p className="text-[28pt] font-bold">zx7 SPEAKER</p>
-            <button className="mt-14 border-2 border-almostblack text-black py-4 px-6 text-white hover:bg-almostblack w-fit">
+            <button className="mt-14 border-2 border-almostblack text-black py-4 px-6 hover:bg-almostblack w-fit">
                 SEE PRODUCT
             </button>
           </div>
@@ -81,7 +81,7 @@ export default function Home() {
             </div>
             <div className="bg-gray rounded-lg flex flex-col items-center justify-center w-1/2">
               <p className="text-[28pt] font-bold">YX1 EARPHONES</p>
-              <button className="mt-14 border-2 border-almostblack text-black py-4 px-6 text-white hover:bg-almostblack w-fit">
+              <button className="mt-14 border-2 border-almostblack text-black py-4 px-6 hover:bg-almostblack w-fit">
                 SEE PRODUCT
               </button>
             </div>
