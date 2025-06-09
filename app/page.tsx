@@ -24,16 +24,16 @@ export default function Home() {
           </div>
         </section>
         <section className="mt-72 flex justify-between">
-            <button className="flex relative w-[350px] h-[204px] group">
+            <button className="flex items-end relative w-[350px] min-h-[204px] group bg-gray rounded-lg pb-4">
                 <Image src={headphone_store1} alt="head phone" className="absolute w-80 -mt-28" />
-                <div className="bg-gray w-full flex flex-col justify-end items-center rounded">
+                <div className="w-full flex flex-col justify-end items-center rounded">
                   <p className="tracking-[1.29px] text-[18pt] font-bold">HEADPHONES</p>
                   <p className="w-fit flex gap-2 items-center group-hover:text-orange">
                     SHOP <span className="text-2xl text-orange"><Image src={arrowright} alt="arrow right" /></span>
                   </p>
                 </div>
             </button>
-            <button className="flex relative w-[350px] h-[204px] group">
+            <button className="flex items-end relative w-[350px] h-[204px] group bg-gray rounded-lg pb-4">
                 <Image src={speaker_store2} alt="head phone" className="absolute w-80 -mt-28" />
                 <div className="bg-gray w-full flex flex-col justify-end items-center rounded">
                   <p className="tracking-[1.29px] text-[18pt] font-bold">SPEAKERS</p>
@@ -42,7 +42,7 @@ export default function Home() {
                   </p>
                 </div>
             </button>
-            <button className="flex relative w-[350px] h-[204px] group">
+            <button className="flex items-end relative w-[350px] h-[204px] group bg-gray rounded-lg pb-4">
                 <Image src={earphones_store3} alt="head phone" className="absolute w-80 -mt-28" />
                 <div className="bg-gray w-full flex flex-col justify-end items-center rounded">
                   <p className="tracking-[1.29px] text-[18pt] font-bold">EARPHONES</p>
@@ -53,8 +53,8 @@ export default function Home() {
             </button>
         </section>
         <section className="flex items-center justify-between text-white bg-orange mt-40 rounded-lg h-[560px] bg-[url('/images/pattern-circles.svg')] bg-cover">
-          <div className="self-end ml-64 w-fit overflow-hidden">
-            <Image src={zx9_speaker} alt="zx9 speaker" className="-mb-4 w-fit" />
+          <div className="self-end ml-32 overflow-hidden">
+            <Image src={zx9_speaker} alt="zx9 speaker" width={350} className="-mb-4 w-full" />
           </div>
           <div className="mr-32">
             <p className="text-[56pt] font-bold">zx9</p>
