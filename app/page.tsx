@@ -65,6 +65,14 @@ export default function Home() {
             </button>
           </div>
         </section>
+        <section className="mt-24 rounded-lg">
+          <div className="bg-[url('/images/image-speaker-zx7.jpg')] bg-cover bg-no-repeat w-full min-h-[320px] rounded-lg pl-32 flex flex-col justify-center">
+            <p className="text-[28pt] font-bold">zx7 SPEAKER</p>
+            <button className="mt-14 bg-fullblack py-4 px-6 text-white hover:bg-almostblack w-fit">
+              SEE PRODUCT
+            </button>
+          </div>
+        </section>
       </div>
     </main>
   );
