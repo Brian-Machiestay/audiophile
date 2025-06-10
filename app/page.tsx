@@ -117,7 +117,7 @@ export default function Home() {
             </div>
             <div className="flex justify-between mt-8">
               <p className="w-[540px] text-gray-400 font-semibold">Audiophile is an all in one stop to fulfill your audio needs. 
-                We're a small team of music lovers and sound specialists who are 
+                We&lsquo;re a small team of music lovers and sound specialists who are 
                 devoted to helping you get the most out of personal audio. Come and visit our 
                 demo facility - we&lsquo;re open 7 days a week.</p>
                 <div className="flex self-end gap-4">
