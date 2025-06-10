@@ -15,9 +15,9 @@ const config: Config = {
         lightorange: "var(--lightorange)",
         almostblack: "var(--almostblack)",
         fullblack: "var(--fullblack)",
-        white: "var(--white)",
+        fullwhite: "var(--white)",
         almostwhite: "var(--almostwhite)",
-        gray: "var(--gray)"
+        graycolor: "var(--gray)"
       },
     },
   },
