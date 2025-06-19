@@ -19,7 +19,7 @@ import insta_logo from './assets/shared/desktop/icon-instagram.svg'
 export default function Home() {
   return (
     <main className="">
-      <section className="bg-almostblack px-28 bg-[url('/images/image-hero.jpg')] bg-cover h-screen">
+      <section className="bg-almostblack px-28 bg-[url('/images/home/mobile/image-header.jpg')] md:bg-[url('/images/home/tablet/image-header.jpg')] lg:bg-[url('/images/image-hero.jpg')] bg-cover h-screen">
         <Header />
         <div className="flex flex-1 flex-col text-white justify-center h-[85%]">
           <div className="">
